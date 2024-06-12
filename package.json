@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "cf-imap": "^0.0.9",
+    "hono": "^4.4.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240605.0",
+    "wrangler": "^3.60.2"
+  },
+  "packageManager": "pnpm@9.3.0"
+}
